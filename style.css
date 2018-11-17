@@ -20,11 +20,42 @@ h1 {
 	padding: 20px;
 }
 
+ul {
+    color:#000082;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+li {
+    padding-top: 20px;
+}
+
+h3 {
+    color: #0001F9;
+    font-size: 30px;
+}
+
+p {
+    color: black; 
+    font-size: 16px;
+}
+
+p:last-child {
+    padding-bottom: 40px;
+}
+
 button {
 	width: 150px;
 	padding: 5px 10px;
-	margin: 0 auto;
+	margin: auto;
 	margin-bottom: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #000082;
+    color: #fff;
+    cursor: pointer;
 }
 
 input {
@@ -41,6 +72,4 @@ input {
 h2, ul {
 	text-align: center;
 }
-
-
 
